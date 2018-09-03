@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CheckersGame">
+    <output-path>$PROJECT_DIR$/dist</output-path>
+    <root id="archive" name="CheckersGame.jar">
+      <element id="module-output" name="cs102-checkers-game-master" />
+    </root>
+  </artifact>
+</component>
