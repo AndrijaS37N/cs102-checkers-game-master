@@ -8,10 +8,10 @@
   <li>A music component that plays "Vide Cor Meum" by Patrick Cassidy</li>
 </ul>
 <p>Reactions after starting it for the first time:</p>
-<img src="working.gif" alt="Woo!" width="620" border="2">
-<p>Project boot and a personal note:</p>
+<img src="working.gif" alt="Woo!" width="900">
+<p>Project boot and a short personal note:</p>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
-Run the Main.java class or build a JAR in your IDE and then run it.
+Run the Main.java class or build a JAR in your IDE and then run it.\n
 Was interesting checking out a project that I made back when I had just started learning engineering.
 Woo!
 </p>
