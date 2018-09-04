@@ -1,7 +1,7 @@
 # cs102-checkers-game-master
 <h3>A simple freshman Java project with the following characteristics:</h3>
 <ul style="list-style-type:circle">
-  <li>Made during the CS102 Objects & Data Abstraction course</li>
+  <li>Made during the <i>CS102 Objects & Data Abstraction</i> course</li>
   <li>JavaFX graphics and animations</li>
   <li>A MySQL database</li>
   <li>Somewhat clunky beginner code</li>
