@@ -15,7 +15,7 @@ Run the Main.java class in the source dir or build a JAR file in your IDE and ru
 Was interesting checking out a project that I made back when I had just started learning engineering.
 Woo!
 </p>
-#
+<div class="vertical-line"></div>
 <h3>Project snapshots:</h3>
 <img src="screen-shots/s1.png" alt="Starter View">
 <img src="screen-shots/s2.png" alt="Main Menu">
