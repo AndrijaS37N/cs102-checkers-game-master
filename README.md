@@ -9,21 +9,29 @@
 </ul>
 <p>Reactions after starting it for the first time:</p>
 <img src="working.gif" alt="Woo!" width="900">
-<p>Project boot and a short personal note:</p>
+<h3>Project boot and a short personal note:</h3>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
 Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
-Was interesting checking out a project that I made back when I had just started learning engineering.
+It was interesting checking out a project that I made back when I had just started learning engineering.
 Woo!
 </p>
 <div class="vertical-line"></div>
 <h3>Project snapshots:</h3>
+<p>Starter View</p>
 <img src="screen-shots/s1.png" alt="Starter View">
+<p>Main Menu View</p>
 <img src="screen-shots/s2.png" alt="Main Menu">
+<p>Rules View</p>
 <img src="screen-shots/s3.png" alt="Rules View">
+<p>Another Main Menu View</p>
 <img src="screen-shots/s4.png" alt="Another Main Menu View">
+<p>Author View</p>
 <img src="screen-shots/s5.png" alt="Author View">
+<p>Setup Game View</p>
 <img src="screen-shots/s6.png" alt="Setup Game View">
+<p>Game View</p>
 <img src="screen-shots/s7.png" alt="Game View">
-<img src="screen-shots/s8.png" alt="End View">
+<p>End Game View</p>
+<img src="screen-shots/s8.png" alt="End Game View">
 
 
