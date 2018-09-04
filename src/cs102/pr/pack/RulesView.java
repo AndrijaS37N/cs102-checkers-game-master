@@ -25,7 +25,7 @@ public class RulesView {
         StackPane layout = new StackPane();
         VBox vbox = new VBox(16);
         Button back = new Button("Back");
-        Text text = new Text("Not sure how to play?\nHere's some advice! Check out the link:");
+        Text text = new Text("Not sure how to play? Here's some advice! Check out this link:");
 
         back.setFont(StarterView.font);
         back.setPrefSize(160.0, 40.0);
@@ -33,6 +33,7 @@ public class RulesView {
 
         text.setFill(Color.WHEAT);
         text.setFont(StarterView.font);
+        text.setLineSpacing(6);
         link.setFont(StarterView.font);
         link.setTextFill(Color.LIGHTBLUE);
 

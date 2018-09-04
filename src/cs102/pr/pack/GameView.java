@@ -50,7 +50,7 @@ public class GameView {
     public Scene GameViewScene() {
 
         VBox hbox = new VBox(10);
-        scene = new Scene(border, 600, 720);
+        scene = new Scene(border, 600, 768);
 
         MenuBar menuBar = new MenuBar();
         final MenuItem exitItem = new MenuItem("Exit game");
@@ -70,6 +70,8 @@ public class GameView {
         border.setCenter(setup.createContent());
         text.setFont(StarterView.font);
         text.setFill(StarterView.color);
+
+        text.setLineSpacing(6);
         border.setBottom(text);
 
         menu2.setDisable(false);

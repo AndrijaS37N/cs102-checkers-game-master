@@ -72,6 +72,7 @@ public class SetupGameView {
 
         Text label = new Text("Enter player names and then press\nbegin to start the game.");
         label.setFill(StarterView.color);
+        label.setLineSpacing(6);
         label.setFont(StarterView.font);
 
         text = new Text("\nMust enter names bigger then 2 characters.");

@@ -2,6 +2,7 @@ package cs102.pr.pack;
 
 import javafx.scene.Group;
 import javafx.scene.Parent;
+import javafx.scene.control.Separator;
 import javafx.scene.layout.Pane;
 
 public class Setup {

@@ -2,6 +2,7 @@
 / / custom image -fx-background-repeat: stretch;
     -fx-background-size: 2000 1000;
     -fx-background-position: center center;
+    /*line-height: 1.6;*/
 }
 .rules-view {
     -fx-background-image: url("../assets/rulesPic.jpg");
@@ -19,7 +20,8 @@
     -fx-background-image: url("../assets/authorPic.jpg");
 }
 
-#fancy-mancy {
+#fancy-mancy-text {
+    /* author text */
     -fx-font: 35px Helvetica;
     -fx-fill: linear-gradient(from 0% 0% to 120% 195%, repeat, royalblue 10%, rosybrown 50%);
     -fx-stroke: Grey;

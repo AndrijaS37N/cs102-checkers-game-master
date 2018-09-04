@@ -29,7 +29,7 @@ public class AuthorView {
         pane.setBottom(back);
 
         text.setFill(Color.WHEAT);
-        text.setId("fancy-mancy");
+        text.setId("fancy-mancy-text");
         vbox.getChildren().addAll(text);
         layout.getChildren().addAll(vbox, pane);
 

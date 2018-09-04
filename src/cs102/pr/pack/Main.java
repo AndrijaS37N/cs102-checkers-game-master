@@ -19,11 +19,5 @@ public class Main extends Application {
         window.show();
     }
 
-    // no jar created
-    // simple first year project
-    // CS102 course
-
-    // Andrija Djuric - 2687 SI
-
     public static void main(String[] args) { launch(args); }
 }
