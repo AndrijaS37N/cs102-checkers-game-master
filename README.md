@@ -11,11 +11,11 @@
 <img src="working.gif" alt="Woo!" width="900">
 <p>Project boot and a short personal note:</p>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
-Run the Main.java class or build a JAR in your IDE and then run it.\n
+Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
 Was interesting checking out a project that I made back when I had just started learning engineering.
 Woo!
 </p>
-<hr>
+#
 <h3>Project snapshots:</h3>
 <img src="screen-shots/s1.png" alt="Starter View">
 <img src="screen-shots/s2.png" alt="Main Menu">
