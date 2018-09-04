@@ -7,20 +7,19 @@
   <li>Somewhat clunky beginner code</li>
   <li>A music component that plays "Vide Cor Meum" by Patrick Cassidy</li>
 </ul>
-<div class="panel panel-default">
-  <div class="panel-heading"><p>Personal note:</p></div>
-  <div class="panel-body"><p>Made in NetBeans IDE, modified in IntelliJ IDEA. It was interesting and actually exciting checking out a project that I made back when I had just started learning engineering.</p> 
-</div>
-</div>
+<p>Running the game:</p>
+<p>Run the Main.java class or build a JAR in your IDE and then run it.</p>
+<p>Personal note:</p>
+<p>Made in NetBeans IDE, modified in IntelliJ IDEA. It was interesting checking out a project that I made back when I had just started learning engineering.</p>
 <hr>
 <h3>Project snapshots:</h3>
-<img src="screen-shots/s1.png">
-<img src="screen-shots/s2.png">
-<img src="screen-shots/s3.png">
-<img src="screen-shots/s4.png">
-<img src="screen-shots/s5.png">
-<img src="screen-shots/s6.png">
-<img src="screen-shots/s7.png">
-<img src="screen-shots/s8.png">
+<img src="screen-shots/s1.png" alt="Starter View">
+<img src="screen-shots/s2.png" alt="Main Menu">
+<img src="screen-shots/s3.png" alt="Rules View">
+<img src="screen-shots/s4.png" alt="Another Main Menu View">
+<img src="screen-shots/s5.png" alt="Author View">
+<img src="screen-shots/s6.png" alt="Setup Game View">
+<img src="screen-shots/s7.png" alt="Game View">
+<img src="screen-shots/s8.png" alt="End View">
 
 
