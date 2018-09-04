@@ -7,10 +7,12 @@
   <li>Somewhat clunky beginner code</li>
   <li>A music component that plays "Vide Cor Meum" by Patrick Cassidy</li>
 </ul>
+<img src="working.gif" alt="Woo!">
 <p>Note:</p>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
 Run the Main.java class or build a JAR in your IDE and then run it.
-It was interesting checking out a project that I made back when I had just started learning engineering.
+Was interesting checking out a project that I made back when I had just started learning engineering.
+Woo!
 </p>
 <hr>
 <h3>Project snapshots:</h3>
