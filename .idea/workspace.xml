@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="12655278-fba9-4399-ac0e-e309e7e8bb92" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screen-shots/s7.png" beforeDir="false" afterPath="$PROJECT_DIR$/screen-shots/s7.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +73,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="829" />
@@ -85,7 +84,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,8 +96,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,25 +214,26 @@
       <workItem from="1536012208655" duration="1005000" />
       <workItem from="1536053533141" duration="2863000" />
       <workItem from="1536056998616" duration="293000" />
+      <workItem from="1536142106603" duration="145000" />
+      <workItem from="1536228465766" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26624000" />
+    <option name="totallyTimeSpent" value="27053000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="829" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="829" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="10" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="19" sideWeight="0.49930555" weight="0.32665095" />
       <window_info anchor="right" id="Palette&#9;" order="14" />
       <window_info id="Image Layers" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.5013889" side_tool="true" visible="true" weight="0.32847682" />
+      <window_info anchor="bottom" id="Event Log" order="18" sideWeight="0.50208336" side_tool="true" visible="true" weight="0.36953643" />
       <window_info anchor="right" id="Maven Projects" order="15" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49861112" weight="0.36953643" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49791667" weight="0.36953643" />
       <window_info anchor="bottom" id="Version Control" order="16" />
       <window_info anchor="bottom" id="Terminal" order="17" />
       <window_info id="Capture Tool" order="11" />
@@ -252,6 +252,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900944" />
+      <window_info anchor="bottom" id="Messages" order="19" sideWeight="0.49861112" weight="0.3258278" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
