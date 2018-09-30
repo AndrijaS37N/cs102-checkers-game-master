@@ -14,12 +14,29 @@
 Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
 </p>
 <p> It was interesting checking out a project that I made back when I had just started learning engineering. Woo!</p>
+
+<p>
+Break glass in case of forgetfulness:
+
+```
+git add -A
+git commit -m "Hello GitHub."
+git push origin master
+```
+... and much more. 💩
+</p>
+
+<p>
+
+Learn more Git. This guy is the inspiration @sindresorhus 👾 & check [this](https://help.github.com/articles/basic-writing-and-formatting-syntax/) link for styling descriptions.
+</p>
+
 <p>
 In the words of fookin' Shakespeare:
 
 > Small commitments become big commitments.
 
-... or whatever. 😄
+... or whatever. 💩
 </p>
 
 #### Project snapshots:
