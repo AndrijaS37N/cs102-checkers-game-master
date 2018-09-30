@@ -15,6 +15,10 @@ Run the Main.java class in the source dir or build a JAR file in your IDE and ru
 It was interesting checking out a project that I made back when I had just started learning engineering.
 Woo!
 </p>
+<p>
+In the words of fookin' Shakespeare:
+> Small commitments become big commitments.
+</p>
 
 #### Project snapshots:
 <p>Starter View</p>
