@@ -9,13 +9,12 @@
 </ul>
 <p>Reactions after starting it for the first time:</p>
 <img src="working.gif" alt="Woo!" width="900">
-<h3>Project boot + A short personal note. ℹ️</h3>
+<h3>Project boot + A short personal note.</h3>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
 Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
 It was interesting checking out a project that I made back when I had just started learning engineering.
-Woo!
+Woo! ℹ️
 </p>
-<div class="vertical-line"></div>
 <h3>Project snapshots:</h3>
 <p>Starter View</p>
 <img src="screen-shots/s1.png" alt="Starter View">
