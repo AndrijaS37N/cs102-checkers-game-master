@@ -39,6 +39,12 @@ In the words of fookin' Shakespeare:
 ... or whatever. 💩
 </p>
 
+<p>
+
+[This](https://github.com/TheAlgorithms) is a good repo for checking out implementations of various algorithms. 
+
+</p>
+
 #### Project snapshots:
 <p>Starter View</p>
 <img src="screen-shots/s1.png" alt="Starter View">
