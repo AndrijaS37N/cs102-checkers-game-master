@@ -41,7 +41,7 @@ In the words of fookin' Shakespeare:
 
 <p>
 
-[This](https://github.com/TheAlgorithms) is a good repo for checking out implementations of various algorithms. 
+And [this](https://github.com/TheAlgorithms) is a good repo for checking out implementations of various algorithms. 
 
 </p>
 
