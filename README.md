@@ -1,5 +1,5 @@
 # cs102-checkers-game-master 🚦
-<h3>A simple freshman Java project with the following characteristics. 🚥</h3>
+<h3>A simple freshman Java project with the following characteristics.</h3>
 <ul>
   <li>Made during the <b>CS102 Objects & Data Abstraction</b> course. 🍏</li>
   <li>JavaFX graphics and animations.</li>
@@ -9,11 +9,11 @@
 </ul>
 <p>Reactions after starting it for the first time:</p>
 <img src="working.gif" alt="Woo!" width="900">
-<h3>Project boot + A short personal note. 🏴</h3>
+<h3>🚩 Project boot + A short personal note.</h3>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
 Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
 </p>
-<p> It was interesting checking out a project that I made back when I had just started learning engineering. Woo!</p>
+<p> It was interesting checking out a project that I made back when I had just started learning engineering.</p>
 
 <p>
 Break glass in case of forgetfulness:
@@ -46,21 +46,21 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 </p>
 
 #### Project snapshots:
-<p>Starter View</p>
+<h6>Starter View</h6>
 <img src="screen-shots/s1.png" alt="Starter View">
-<p>Main Menu View</p>
+<h6>Main Menu View</h6>
 <img src="screen-shots/s2.png" alt="Main Menu">
-<p>Rules View</p>
+<h6>Rules View</h6>
 <img src="screen-shots/s3.png" alt="Rules View">
-<p>Another Main Menu View</p>
+<h6>Another Main Menu View</h6>
 <img src="screen-shots/s4.png" alt="Another Main Menu View">
-<p>Author View</p>
+<h6>Author View</h6>
 <img src="screen-shots/s5.png" alt="Author View">
-<p>Setup Game View</p>
+<h6>Setup Game View</h6>
 <img src="screen-shots/s6.png" alt="Setup Game View">
-<p>Game View</p>
+<h6>Game View</h6>
 <img src="screen-shots/s7.png" height="600" alt="Game View">
-<p>End Game View</p>
+<h6>End Game View</h6>
 <img src="screen-shots/s8.png" height="600" alt="End Game View">
 
 
