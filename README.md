@@ -28,7 +28,7 @@ git push origin master
 
 <p>
 
-Learn more Git. This guy is the inspiration @sindresorhus 👾 & check [this](https://help.github.com/articles/basic-writing-and-formatting-syntax/) link for styling descriptions.
+Learn more Git. This guy is the inspiration @sindresorhus 👾 and check [this](https://help.github.com/articles/basic-writing-and-formatting-syntax/) link for styling descriptions.
 </p>
 
 <p>
