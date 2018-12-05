@@ -3,7 +3,7 @@
 <ul>
   <li>Made during the <b>CS102 Objects & Data Abstraction</b> course. 🍏</li>
   <li>JavaFX graphics and animations.</li>
-  <li>A MySQL database.</li>
+  <li>A simple MySQL database.</li>
   <li>Somewhat clunky beginner code.</li>
   <li>A music component that plays "Vide Cor Meum" by Patrick Cassidy.</li>
 </ul>
