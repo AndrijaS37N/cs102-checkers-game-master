@@ -47,17 +47,17 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 
 #### Project snapshots:
 <h6>Starter View</h6>
-<img src="screen-shots/s1.png" alt="Starter View">
+<img src="screen-shots/s1.png" height="500" alt="Starter View">
 <h6>Main Menu View</h6>
-<img src="screen-shots/s2.png" alt="Main Menu">
+<img src="screen-shots/s2.png" height="500" alt="Main Menu">
 <h6>Rules View</h6>
-<img src="screen-shots/s3.png" alt="Rules View">
+<img src="screen-shots/s3.png" height="500" alt="Rules View">
 <h6>Another Main Menu View</h6>
-<img src="screen-shots/s4.png" alt="Another Main Menu View">
+<img src="screen-shots/s4.png" height="500" alt="Another Main Menu View">
 <h6>Author View</h6>
-<img src="screen-shots/s5.png" alt="Author View">
+<img src="screen-shots/s5.png" height="500" alt="Author View">
 <h6>Setup Game View</h6>
-<img src="screen-shots/s6.png" alt="Setup Game View">
+<img src="screen-shots/s6.png" height="500" alt="Setup Game View">
 <h6>Game View</h6>
 <img src="screen-shots/s7.png" height="600" alt="Game View">
 <h6>End Game View</h6>
