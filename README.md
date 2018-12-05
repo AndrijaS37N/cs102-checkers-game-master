@@ -1,4 +1,4 @@
-# cs102-checkers-game-master 🚦
+# cs102-checkers-game-master
 <h3>A simple freshman Java project with the following characteristics.</h3>
 <ul>
   <li>Made during the <b>CS102 Objects & Data Abstraction</b> course. 🍏</li>
