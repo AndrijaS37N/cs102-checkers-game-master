@@ -1,9 +1,10 @@
-.general-layout{
+.general-layout {
 / / custom image -fx-background-repeat: stretch;
     -fx-background-size: 2000 1000;
     -fx-background-position: center center;
     /*line-height: 1.6;*/
 }
+
 .rules-view {
     -fx-background-image: url("../assets/rulesPic.jpg");
 }

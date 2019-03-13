@@ -19,7 +19,6 @@ public class MoveResult {
     }
 
     public MoveResult(MoveType type, Piece piece) {
-
         this.type = type;
         this.piece = piece;
     }

@@ -11,12 +11,12 @@ import javafx.scene.text.Text;
 
 public class AuthorView {
 
-    public AuthorView() {}
+    public AuthorView() {
+    }
 
     private static Scene scene;
 
     public Scene AuthorViewScene() {
-
         StackPane layout = new StackPane();
         BorderPane pane = new BorderPane();
         VBox vbox = new VBox(60);
@@ -27,7 +27,6 @@ public class AuthorView {
         back.setPrefSize(160.0, 40.0);
         vbox.setAlignment(Pos.CENTER);
         pane.setBottom(back);
-
         text.setFill(Color.WHEAT);
         text.setId("fancy-mancy-text");
         vbox.getChildren().addAll(text);
@@ -37,15 +36,12 @@ public class AuthorView {
         scene.getStylesheets().add(getClass().getResource("styles/style.css").toExternalForm());
         layout.getStyleClass().add("general-layout");
         layout.getStyleClass().add("author-view");
-
         setActions(back);
         return scene;
     }
 
     private void setActions(Button back) {
-
         back.setOnAction(event -> {
-
             Main.window.setScene(MainMenuView.scene);
             Main.window.centerOnScreen();
         });

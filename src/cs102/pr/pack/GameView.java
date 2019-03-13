@@ -3,6 +3,7 @@ package cs102.pr.pack;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import javafx.concurrent.Task;
 import javafx.scene.Scene;
 import javafx.scene.control.Menu;
@@ -14,13 +15,13 @@ import javafx.scene.text.Text;
 
 public class GameView {
 
-    public GameView() {}
+    public GameView() {
+    }
 
     // game database class
     private GameDB info;
 
     public GameView(String player1, String player2, int time) {
-        
         this.player1 = player1;
         this.player2 = player2;
         this.time = time;
@@ -48,10 +49,8 @@ public class GameView {
     private final String endingText = "\n\tCheck out the game database or the console for more info.\n";
 
     public Scene GameViewScene() {
-
         VBox hbox = new VBox(10);
         scene = new Scene(border, 600, 768);
-
         MenuBar menuBar = new MenuBar();
         final MenuItem exitItem = new MenuItem("Exit game");
         final MenuItem menuItem = new MenuItem("Back to main menu");
@@ -64,16 +63,13 @@ public class GameView {
         menu1.getItems().addAll(menuItem, exitItem);
         menu2.getItems().addAll(surrItem, surrItem2);
         menuBar.getMenus().addAll(menu1, menu2);
-
         border.setTop(hbox);
         hbox.getChildren().addAll(menuBar);
         border.setCenter(setup.createContent());
         text.setFont(StarterView.font);
         text.setFill(StarterView.color);
-
         text.setLineSpacing(6);
         border.setBottom(text);
-
         menu2.setDisable(false);
         surrItem.setDisable(false);
         surrItem2.setDisable(false);
@@ -81,18 +77,14 @@ public class GameView {
         scene.getStylesheets().add(getClass().getResource("styles/style.css").toExternalForm());
         border.getStyleClass().add("general-layout");
         border.getStyleClass().add("game-view");
-
         setAction(exitItem, menuItem, surrItem, surrItem2);
         thread.start();
         return scene;
     }
 
     private void setAction(MenuItem m1, MenuItem m2, MenuItem m3, MenuItem m4) {
-
         m1.setOnAction(event -> System.exit(0));
-
         m2.setOnAction(event -> {
-
             Main.window.setScene(MainMenuView.scene);
             // stop created thread
             thread.stop();
@@ -101,16 +93,13 @@ public class GameView {
 
         // ~ duplicates ---------------
         m3.setOnAction(event -> {
-
             m3.setDisable(true);
             m4.setDisable(true);
             isSurrenderWhite = true;
             text.setText("\t" + player1 + " has surrendered!" + endingText);
             stopThread();
         });
-
         m4.setOnAction(event -> {
-
             m3.setDisable(true);
             m4.setDisable(true);
             isSurrenderRed = true;
@@ -121,21 +110,21 @@ public class GameView {
     }
 
     private void stopThread() {
-
         thread.stop();
         printIt();
 
-        try { pass(); }
-        catch (SQLException ex) { Logger.getLogger(GameView.class.getName()).log(Level.SEVERE, null, ex); }
+        try {
+            pass();
+        } catch (SQLException ex) {
+            Logger.getLogger(GameView.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     private Task taskCreator() {
-
         return new Task() {
 
             @Override
             protected Object call() throws Exception {
-
                 isEndTimer = false;
                 isSurrenderRed = false;
                 isSurrenderWhite = false;
@@ -143,49 +132,37 @@ public class GameView {
                 Setup.whitePoints = 0;
 
                 for (timer = time; timer >= 0; timer--) {
-
                     text.setText("\tMatch time: " + time + "s\n\t" + player1 + " VS " + player2 + "\n\tClock: " + timer + "s\n");
                     Thread.sleep(1000);
                     System.out.println("Timer: " + timer);
 
                     if (timer == 0) isEndTimer = true;
-
-                    if (isEndTimer == true)
-                        text.setText("\tEnd of game." + endingText);
-
+                    if (isEndTimer == true) text.setText("\tEnd of game." + endingText);
                     if (isEndTimer == true) {
-
                         menu2.setDisable(true);
                         printIt();
                         pass();
                     }
                 }
-
                 return true;
             }
         };
     }
 
-    private String getWinner() { // woof
-
+    private String getWinner() {
         if (isSurrenderWhite == false && isSurrenderRed == false) {
-
             if (Setup.whitePoints > Setup.redPoints) return player1;
-
             else if (Setup.whitePoints == Setup.redPoints) {
-
                 return "The game ended in a draw.";
 
             } else return player2;
 
         } else if (isSurrenderWhite == true) {
-
             Setup.redPoints = 0;
             Setup.whitePoints = 0;
             return player2;
 
         } else if (isSurrenderRed == true) {
-
             Setup.redPoints = 0;
             Setup.whitePoints = 0;
             return player1;
@@ -194,7 +171,6 @@ public class GameView {
     }
 
     private void pass() throws SQLException {
-
         info = new GameDB(player1, player2, time, Setup.whitePoints, Setup.redPoints, isSurrenderWhite, isSurrenderRed, getWinner());
         System.out.println("Database info:\n" + info.toString());
 
@@ -203,9 +179,6 @@ public class GameView {
     }
 
     private void printIt() {
-
-        System.out.println("Printing information:\n------------------------------\n" +
-                "player1 = " + player1 + " player2 = " + player2 + " time = " + time + "\nSetup.redPoints = " + Setup.redPoints + " Setup.whitePoints = " + Setup.whitePoints + " isSurrenderWhite = " + isSurrenderWhite + " isSurrendeRed = " + isSurrenderRed + "\nWinner is = " + getWinner() + "\n" +
-                "------------------------------");
+        System.out.println("Printing information:\n------------------------------\n" + "player1 = " + player1 + " player2 = " + player2 + " time = " + time + "\nSetup.redPoints = " + Setup.redPoints + " Setup.whitePoints = " + Setup.whitePoints + " isSurrenderWhite = " + isSurrenderWhite + " isSurrendeRed = " + isSurrenderRed + "\nWinner is = " + getWinner() + "\n" + "------------------------------");
     }
 }

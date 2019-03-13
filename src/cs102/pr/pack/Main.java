@@ -9,7 +9,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage window) {
-
         this.window = window;
         window.setTitle("Checkers Game");
         window.centerOnScreen();
@@ -19,5 +18,7 @@ public class Main extends Application {
         window.show();
     }
 
-    public static void main(String[] args) { launch(args); }
+    public static void main(String[] args) {
+        launch(args);
+    }
 }

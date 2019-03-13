@@ -26,7 +26,8 @@ import javafx.util.Duration;
 
 public class MainMenuView {
 
-    public MainMenuView() {}
+    public MainMenuView() {
+    }
 
     public static Scene scene;
     private final URL resource = getClass().getResource("assets/gameMusic.mp3");
@@ -35,7 +36,6 @@ public class MainMenuView {
     private BorderPane border = new BorderPane();
 
     public Scene MainMenuViewScene() {
-
         VBox hbox = new VBox(50);
         final MenuBar menuBar = new MenuBar();
         final Menu menu1 = new Menu("Game");
@@ -51,13 +51,11 @@ public class MainMenuView {
 
         Main.window.setResizable(false);
         scene = new Scene(border, 720, 480);
-
         menu1.getItems().addAll(gameItem, exitItem);
         menu2.getItems().addAll(musicItem1, musicItem2);
         menu3.getItems().add(rulesItem);
         menu4.getItems().add(creditsItem);
         menuBar.getMenus().addAll(menu1, menu2, menu3, menu4);
-
         border.setTop(hbox);
         border.setCenter(setCircleAnimation());
         hbox.getChildren().addAll(menuBar);
@@ -66,49 +64,37 @@ public class MainMenuView {
         scene.getStylesheets().add(getClass().getResource("styles/style.css").toExternalForm());
         border.getStyleClass().add("general-layout");
         border.getStyleClass().add("main-menu-view");
-        musicItem1.setDisable(true);
 
+        musicItem1.setDisable(true);
         mediaPlayer.play();
         mediaPlayer.setAutoPlay(true);
         return scene;
     }
 
     private void setButtonActions(MenuItem m1, MenuItem m2, MenuItem m3, MenuItem m4, MenuItem m5, MenuItem m6) {
-
         m1.setOnAction(event -> {
-
             mediaPlayer.stop();
             System.exit(0);
         });
-
         m2.setOnAction(event -> {
-
             mediaPlayer.play();
             m2.setDisable(true);
         });
-
         m3.setOnAction(event -> {
-
             mediaPlayer.pause();
             m2.setDisable(false);
         });
-
         m4.setOnAction(event -> {
-
             RulesView view = new RulesView();
             Main.window.setScene(view.RulesViewScene());
             Main.window.centerOnScreen();
         });
-
         m5.setOnAction(event -> {
-
             SetupGameView view = new SetupGameView();
             Main.window.setScene(view.SetupGameView());
             Main.window.centerOnScreen();
         });
-
         m6.setOnAction(event -> {
-
             AuthorView view = new AuthorView();
             Main.window.setScene(view.AuthorViewScene());
             Main.window.centerOnScreen();
@@ -116,7 +102,6 @@ public class MainMenuView {
     }
 
     private Path createEllipsePath(double centerX, double centerY, double radiusX, double radiusY, double rotate) {
-
         ArcTo arcTo = new ArcTo();
         arcTo.setX(centerX - radiusX + 1); // a full 360 degree circle path simulation
         arcTo.setY(centerY - radiusY);
@@ -125,26 +110,22 @@ public class MainMenuView {
         arcTo.setRadiusX(radiusX);
         arcTo.setRadiusY(radiusY);
         arcTo.setXAxisRotation(rotate);
+
         Path path = PathBuilder.create().elements(new MoveTo(centerX - radiusX, centerY - radiusY), arcTo, new ClosePath()).build();
         path.setStroke(Color.WHITE);
         path.getStrokeDashArray().setAll(5d, 5d);
-
         return path;
     }
 
     private Group setCircleAnimation() {
-
         Group group = new Group();
         Path path = createEllipsePath(400, 200, 320, 120, 0);
-
         ArrayList<PathTransition> pathList = new ArrayList<>();
         ArrayList<Circle> circleList = new ArrayList<>();
 
         int time;
         time = 4000;
-
         for (int i = 0; i < 100; i++, time += 120) {
-
             PathTransition ptt = new PathTransition();
             Circle circle = new Circle(10);
 
@@ -159,18 +140,16 @@ public class MainMenuView {
             circle.setFill(Color.rgb(0, 120, 180));
             circleList.add(circle);
             pathList.get(i).setNode(circleList.get(i));
-
             group.getChildren().addAll(circleList.get(i));
+
             FadeTransition ft2 = new FadeTransition(Duration.millis(3000), circleList.get(i));
             ft2.setFromValue(1.0);
             ft2.setToValue(0.001);
             ft2.setCycleCount(Timeline.INDEFINITE);
             ft2.setAutoReverse(true);
-
             ft2.play();
             ptt.play();
         }
-
         group.getChildren().addAll(path);
         return group;
     }

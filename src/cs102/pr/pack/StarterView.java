@@ -11,21 +11,21 @@ import javafx.scene.text.Text;
 
 public class StarterView {
 
-    public StarterView() {}
+    public StarterView() {
+    }
 
     private static Scene scene;
     public static final Color color = Color.rgb(0, 120, 180);
-    public static Font font = new Font("Helvetica",18);
+    public static Font font = new Font("Helvetica", 18);
 
     public Scene StarterViewScene() {
-
         VBox vbox = new VBox(16);
         final Button start = new Button("Start");
         final Button exit = new Button("Exit");
         Text text = new Text("Checkers Game");
-
         start.setPrefSize(140.0, 30.0);
         exit.setPrefSize(140.0, 30.0);
+
         start.setFont(font);
         exit.setFont(font);
         vbox.setAlignment(Pos.CENTER);
@@ -43,13 +43,10 @@ public class StarterView {
     }
 
     private void setActions(Button start, Button exit) {
-
         start.setOnAction(event -> {
-
             MainMenuView view = new MainMenuView();
             Main.window.setScene(view.MainMenuViewScene());
         });
-
         exit.setOnAction(event -> System.exit(0));
     }
 }
