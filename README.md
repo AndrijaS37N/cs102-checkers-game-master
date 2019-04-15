@@ -8,7 +8,7 @@
   <li>A music component that plays "Vide Cor Meum" by Patrick Cassidy.</li>
 </ul>
 <p>Reactions after starting it for the first time:</p>
-<img src="working.gif" alt="Woo!" width="900">
+<kbd><img src="working.gif" alt="Woo!" width="900"></kbd>
 <h3>Project boot + A short personal note.</h3>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
 Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
