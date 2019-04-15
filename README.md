@@ -47,7 +47,7 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 
 #### Project snapshots:
 <h6>Starter View &#x2198;</h6>
-<kbd style="border: 1px solid black;"><img src="snapshots/s1.png" height="500" alt="Starter View"></kbd>
+<kbd><img src="snapshots/s1.png" height="500" alt="Starter View" margin-top="5"></kbd>
 <h6>Main Menu View &#x2198;</h6>
 <kbd><img src="snapshots/s2.png" height="500" alt="Main Menu"></kbd>
 <h6>Rules View &#x2198;</h6>
