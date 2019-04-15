@@ -47,20 +47,20 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 
 #### Project snapshots:
 <h6>Starter View &#x2198;</h6>
-<kbd><img src="snapshots/s1.png" height="500" alt="Starter View" margin-top="5"></kbd>
+<img src="snapshots/s1.png" height="500" alt="Starter View" margin-top="5">
 <h6>Main Menu View &#x2198;</h6>
-<kbd><img src="snapshots/s2.png" height="500" alt="Main Menu"></kbd>
+<img src="snapshots/s2.png" height="500" alt="Main Menu">
 <h6>Rules View &#x2198;</h6>
-<kbd><img src="snapshots/s3.png" height="500" alt="Rules View"></kbd>
+<img src="snapshots/s3.png" height="500" alt="Rules View">
 <h6>Another Main Menu View &#x2198;</h6>
-<kbd><img src="snapshots/s4.png" height="500" alt="Another Main Menu View"></kbd>
+<img src="snapshots/s4.png" height="500" alt="Another Main Menu View">
 <h6>Author View &#x2198;</h6>
-<kbd><img src="snapshots/s5.png" height="500" alt="Author View"></kbd>
+<img src="snapshots/s5.png" height="500" alt="Author View">
 <h6>Setup Game View &#x2198;</h6>
-<kbd><img src="snapshots/s6.png" height="500" alt="Setup Game View"></kbd>
+<img src="snapshots/s6.png" height="500" alt="Setup Game View">
 <h6>Game View &#x2198;</h6>
-<kbd><img src="snapshots/s7.png" height="600" alt="Game View"></kbd>
+<img src="snapshots/s7.png" height="600" alt="Game View">
 <h6>End Game View &#x2198;</h6>
-<kbd><img src="snapshots/s8.png" height="600" alt="End Game View"></kbd>
+<img src="snapshots/s8.png" height="600" alt="End Game View">
 
 
