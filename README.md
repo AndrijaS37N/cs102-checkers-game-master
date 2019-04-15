@@ -8,7 +8,7 @@
   <li>A music component that plays "Vide Cor Meum" by Patrick Cassidy.</li>
 </ul>
 <p>Reactions after starting it for the first time:</p>
-<kbd><img src="working.gif" alt="Woo!" width="900"></kbd>
+<img src="working.gif" alt="Woo!" width="900" style="border: 1 solid black;">
 <h3>Project boot + A short personal note.</h3>
 <p>Made in NetBeans IDE, modified in IntelliJ IDEA. 
 Run the Main.java class in the source dir or build a JAR file in your IDE and run it instead.
@@ -47,7 +47,7 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 
 #### Project snapshots:
 <h6>Starter View &#x2198;</h6>
-<kbd><img src="snapshots/s1.png# thumbnail bordered" height="500" alt="Starter View"></kbd>
+<kbd><img src="snapshots/s1.png" height="500" alt="Starter View"></kbd>
 <h6>Main Menu View &#x2198;</h6>
 <kbd><img src="snapshots/s2.png" height="500" alt="Main Menu"></kbd>
 <h6>Rules View &#x2198;</h6>
@@ -63,10 +63,4 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 <h6>End Game View &#x2198;</h6>
 <kbd><img src="snapshots/s8.png" height="600" alt="End Game View"></kbd>
 
-img[src~="thumbnail"] {
-   width:150px;
-   height:100px;
-}
-img[src~="bordered"] {
-   border: 1px solid black;
-}
+
