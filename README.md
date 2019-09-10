@@ -60,7 +60,7 @@ And [this](https://github.com/TheAlgorithms) is a good repo for checking out imp
 <img src="snapshots/s6.png" height="500" alt="Setup Game View">
 <h6>Game View &#x2198;</h6>
 <img src="snapshots/s7.png" height="600" alt="Game View">
-<h6>End Game View &#x2198;</h6>
+<h6>Endgame View &#x2198;</h6>
 <img src="snapshots/s8.png" height="600" alt="End Game View">
 
 
